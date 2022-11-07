@@ -1,0 +1,29 @@
+* { box-sizing: border-box;}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: dodgerblue;
+    color: #f7f7f7;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.form {
+    padding: 25px;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+}
+
+input[type=number] {
+    border-color: red;
+}
+
+input[type=radio]:checked {
+    background-color: red;
+}
